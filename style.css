@@ -2,17 +2,24 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
+    border: 0;
 }
 
 #principal{
     background-color: #303030;
     width: 100%;
-    height: 101px;
+    height: 100px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    border-bottom: 1px solid #bababa;
 }
 
 #menu{
-    margin-left: 96px;
-    padding-top: 35px;
+    display: flex;
+    width: 55%;
+    margin-left: 90px;
+    align-items: center;
 }
 
 #menu a{
@@ -20,4 +27,28 @@ body{
     text-decoration: none;
     font-weight: 600;
     font-size: 25px;
+    margin-right: 30px;
 }
+
+    #menu a:hover{
+        color: #cccccc;
+        font-size: 26px;
+    }
+
+#principal button{
+    margin-right: 5%;
+    height: 40px;
+    width: 80px;
+    background-color: #0C70F2;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
+}
+
+    #principal button:hover{
+        width: 82px;
+        height: 42px;
+        background-color: #105dc1;
+    }
