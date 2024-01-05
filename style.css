@@ -3,8 +3,8 @@ body{
     padding: 0;
     font-family: 'Inter', sans-serif;
     border: 0;
-    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%),  #303030;
-    background: no-repeat;
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 28%, rgba(12, 112, 242, 0) 35%), #303030;
+    
 }
 
 :root{
@@ -21,7 +21,6 @@ body{
         display: flex;
         justify-content:space-between ;
         align-items: center;
-        border-bottom: 1px solid #bababa;
     }
 
         #menu{
@@ -66,11 +65,10 @@ body{
     /* Seção principal */
         
         #formulario{
-            color: black;
+            color: white;
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-bottom: 100px;
 
         }
         
@@ -114,7 +112,7 @@ body{
                 border: 0;
                 border-radius: 10px;
                 height: 50px;
-                background-color: #cdcdcde5;
+                background: rgba(255, 255, 255, 0.9);
                 font-size: 20px;
                 padding-left: 20px;
             }
@@ -149,6 +147,7 @@ body{
                 color: white;
                 cursor: pointer;
                 margin-top: 70px;
+                margin-bottom: 250px;
                 box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
                 font-size: 28px;
                 font-weight: 600;
@@ -157,4 +156,95 @@ body{
                     background-color: #105dc1;
                     height: 53px;
                     font-size: 30px;
+                }
+
+    /* FOOTER*/
+        footer{
+            width: 100%;
+            height: 520px;
+            background-color: var(--azul-dnc);
+            color: white;
+        }
+
+        #linha-um{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        footer ul{
+            text-decoration: none;
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            font-size: 25px;
+        }
+
+        footer nav{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 400px;  
+        }
+
+        footer h5{
+            background-color: var(--preto-dnc);
+            font-size: 25px;
+            font-weight: 800;
+            padding:10px 15px 10px 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        footer ul li{
+            font-weight: 600;
+            margin: 20px 0px 20px 0px;
+        }
+
+        footer ul li a{
+            color: white;
+            text-decoration: none;
+        }
+            footer ul li a:hover{
+                cursor: pointer;
+                color: var(--cinza-hover)
+            }
+
+        #escolas{
+            text-align: center;
+        }
+
+        #sobre{
+            text-align: center;
+        }
+
+        #endereco{
+            font-size: 20px;
+            font-weight: 800;
+        }
+
+        #linha-dois{
+            text-align: center;
+            font-family: Inter;
+            font-size: 25px;
+            font-weight: 600;
+            text-decoration: none;
+            color: white;
+            margin-top: 60px;
+           
+        }
+
+            #linha-dois a{
+                color: white;
+                text-decoration: none;
+                padding: 0px 10px 0px 10px;
+            }
+
+            #linha-dois a:first-child{
+                border-right: 4px solid white;
+            }
+
+                #linha-dois a:hover{
+                    cursor: pointer;
+                    color: var(--cinza-hover)
                 }
